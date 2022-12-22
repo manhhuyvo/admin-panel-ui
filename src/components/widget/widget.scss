@@ -1,0 +1,59 @@
+.widget{
+    margin-right: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex: 1;
+    box-shadow: 2px 4px 10px 1px rgb(212,210,210);
+    -webkit-box-shadow: 2px 4px 10px 1px rgb(212,210,210);
+    -moz-box-shadow: 2px 4px 10px 1px rgb(212,210,210);
+    border-radius: 10px;
+    height: 100px;
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title {
+            font-weight: bold;
+            font-size: 14px;
+            color: #B2B2B2;
+        }
+        .counter{
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .link{
+            width: max-content;
+            font-size: 12px;
+            border-bottom: 1px solid gray;
+            display: flex;
+            align-items: center;
+            .iconnext{
+                font-size: 11px;
+                margin-left: 3px;
+            }
+        }
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+            .diff-icon{
+                font-size: 15px;
+                margin-right: 5px;
+            }
+        }
+        .icon{
+            font-size: 22px;
+            padding: 5px;
+            border-radius: 5px;
+            align-self: flex-end;
+        }
+    }
+}

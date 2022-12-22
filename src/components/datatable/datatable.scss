@@ -1,0 +1,89 @@
+.datatable{
+    width: 100%;
+    padding: 20px;
+    height: 600px;
+    box-sizing: border-box;
+    .dataTableTitle{
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .link{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: green;
+            font-size: 16px;
+            font-weight: 500;
+            border: 1px solid green;
+            padding: 5px 15px;
+            border-radius: 5px;
+            .icon{
+                margin-right: 10px;
+            }
+
+            &:hover{
+                color: white;
+                background-color: green;
+            }
+        }
+    }
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+        .cellImg{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+    }
+    .cellWithStatus{
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 50px;
+        text-align: center;
+        font-weight: bold;
+
+        &.active{
+            color: #379237;
+        }
+
+        &.pending{
+            color: #F49D1A;
+        }
+
+        &.passive{
+            color: #CF0A0A;
+        }
+    }
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .viewButton{
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 0.5px solid darkblue;
+            &:hover{
+                color: white;
+                background-color: darkblue;
+            }
+        }
+        .deleteButton{          
+            cursor: pointer;  
+            padding: 4px 8px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px solid crimson;
+            &:hover{
+                color: white;
+                background-color: crimson;
+            }
+        }
+    }
+}

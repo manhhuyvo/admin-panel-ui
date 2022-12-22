@@ -1,0 +1,75 @@
+.navbar{
+    height: 50px;
+    border-bottom: 0.5px solid #e6e3e3;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    .wrapper {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .search{
+            display: flex;
+            align-items: center;
+            border: 0.5px solid #e6e3e3;
+            padding: 3px;
+            border-radius: 5px;
+            .icon{
+                font-size: 20px;
+            }
+
+            input {
+                border: none;
+                width: 200px;
+                outline: none;
+                padding: 3px 7px;
+                background-color: transparent;
+                &::placeholder{
+                    font-size: 12px;
+                }
+            }
+        }
+        .items{
+            display: flex;
+            align-items: center;
+            .item{
+                display: flex;
+                cursor: pointer;
+                align-items: center;
+                margin: 10px;
+                position: relative;
+                .icon{
+                    font-size: 20px;
+                }
+                .language-icon{
+                    margin-right: 3px;
+                }
+                .avatar{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+                .counter{
+                    width: 15px;
+                    height: 15px;
+                    color: white;
+                    border-radius: 50%;
+                    background-color: red;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 8px;
+                    font-weight: bold;
+                    padding: 2px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+            }
+        }
+    }
+}

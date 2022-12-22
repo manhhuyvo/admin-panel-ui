@@ -1,0 +1,22 @@
+.chart {
+    flex: 4;
+    box-shadow: 2px 4px 10px 1px rgb(212,210,210);
+    -webkit-box-shadow: 2px 4px 10px 1px rgb(212,210,210);
+    -moz-box-shadow: 2px 4px 10px 1px rgb(212,210,210);
+    border-radius: 5px;
+    padding: 15px 10px;
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        color: gray;
+        h1 {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .chart-grid{
+        stroke: lightgray;
+    }
+}

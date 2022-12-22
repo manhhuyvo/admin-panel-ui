@@ -1,0 +1,32 @@
+.table {
+    .table-head-row{
+        .tableCell{
+            font-weight: bold;
+        }
+    }
+    .cell-wrapper{
+        display: flex;
+        align-items: center;
+        .product-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit:cover;
+        }
+    }
+    .status {
+        padding: 10px 20px;
+        border-radius: 5px;
+
+        &.Approved{
+            background-color: #CEEDC7;
+            color: #379237;
+        }
+
+        &.Pending{
+            background-color: #FFF8E1;
+            color: #F49D1A;
+        }
+    }
+}
