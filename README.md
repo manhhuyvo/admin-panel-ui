@@ -8,4 +8,4 @@ This is an Admin Panel UI that I built with React.js, HTML, SCSS, Material UI to
 4. Run command "npm start" and open browser to try the app at "https://localhost:3000/
 
 # Live page
-Perhaps please try the live version of the UI here :) https://manhhuyvo-adminpanel.netlify.app/users/test
+Perhaps please try the live version of the UI here :) https://manhhuyvo-adminpanel.netlify.app/
